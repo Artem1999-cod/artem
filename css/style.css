@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+   
+}
+ul{
+    color: #fff;
+    list-style: none;
+}
+
+
+li:before{
+content: '';
+height: 10px;
+width: 10px;
+background-color: red;
+margin-right: 10px;
+border-radius: 50%;
+}
+
+li:after{
+content:"";
+} 
+
+li{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    
+    border-radius: 100px 200px 300px 400px;
+    border-style:solid;
+    border-width: 15px;
+    border-color: red;
+
+    border: 10px solid red;
+
+    box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.5);
+
+}
